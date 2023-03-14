@@ -2,7 +2,7 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const formEl = document.querySelector('.form');
-formRefs = {
+const formRefs = {
   delay: formEl.elements.delay,
   step: formEl.elements.step,
   amount: formEl.elements.amount,
